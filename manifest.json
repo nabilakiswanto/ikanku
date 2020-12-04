@@ -1,0 +1,36 @@
+{
+  "short_name": "Ikanku",
+  "name": "ikanku.net",
+  "description": "Aplikasi e-log book penangkapan ikan berbasis web",
+  "icons": [
+    {
+      "src": "/images/icons/maskable_icon.webp",
+      "type": "image/png",
+      "sizes": "723x723",
+      "purpose":"any maskable"
+      
+    }
+
+  ],
+  "start_url": "https://ikanku.net/Auth",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+    "platform": "play",
+    "id": "com.google.samples.apps.iosched"
+    }
+    ],
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "ikanku.net",
+      "short_name": "Ikanku",
+      "description": "Aplikasi e-log book penangkapan ikan berbasis web",
+      "url": "https://ikanku.net",
+      "icons": [{ "src": "/images/icons/logoikanku.webp", "sizes": "723x723" }]
+    }
+  ]
+}
